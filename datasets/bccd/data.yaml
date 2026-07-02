@@ -1,0 +1,10 @@
+path: /home/nvidia/BloodCellAI/datasets/bccd
+
+train: train/images
+val: val/images
+test: test/images
+
+names:
+  0: RBC
+  1: WBC
+  2: Platelets

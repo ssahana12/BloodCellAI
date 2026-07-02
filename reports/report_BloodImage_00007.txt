@@ -1,0 +1,15 @@
+🧬 BLOOD CELL ANALYSIS REPORT
+========================================
+Image: BloodImage_00007.jpeg
+Time: 2026-07-01 17:13:13
+
+📊 CELL COUNTS:
+  - WBC: 1
+  - RBC: 17
+
+🔢 Total Objects Detected: 18
+
+🧠 QUICK INTERPRETATION:
+  ✔ WBC level appears normal range
+  ✔ RBCs detected normally in sample
+========================================

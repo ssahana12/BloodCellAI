@@ -1,0 +1,16 @@
+BLOOD CELL ANALYSIS REPORT
+========================================
+Image: test2.jpg
+Time: 2026-07-01 19:43:36
+
+CELL COUNTS:
+  RBC: 197
+  WBC: 8
+  Platelets: 2
+
+Total Objects Detected: 207
+
+INTERPRETATION:
+  Elevated WBC detected. Possible infection signal.
+  RBCs detected in sample.
+========================================
