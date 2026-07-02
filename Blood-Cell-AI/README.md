@@ -64,7 +64,7 @@ pip install ultralytics streamlit opencv-python numpy pillow matplotlib reportla
 
 If running on Jetson or ARM device, install PyTorch compatible with your system from NVIDIA index if needed.
 
-__2. Clone or navigate to project_
+_2. Clone or navigate to project_
 cd Blood-Cell-AI
 
 _3. Ensure model exists_
