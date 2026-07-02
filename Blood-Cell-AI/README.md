@@ -94,19 +94,4 @@ Count each class
 Generate report + graph + PDF download
 
 **Project Structure**
-Blood-Cell-AI/
-│
-├── app.py
-├── bccd.yaml
-├── runs/
-│   └── detect/
-│       └── train-5/
-│           └── weights/
-│               └── best.pt
-│
-├── bccd_yolo/
-│   ├── images/
-│   └── labels/
-│
-├── convert_supervisely_to_yolo.py
-└── README.md
+<img width="360" height="413" alt="image" src="https://github.com/user-attachments/assets/cb956c7e-70e5-4cd8-9a38-bbb925d7417b" />
