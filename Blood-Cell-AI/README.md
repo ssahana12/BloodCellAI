@@ -53,6 +53,7 @@ Annotated image output
 PDF report using ReportLab
 
 **Running this project**
+
 _1. Install dependencies_
 
 Make sure Python 3.8+ is installed.
@@ -64,7 +65,8 @@ pip install ultralytics streamlit opencv-python numpy pillow matplotlib reportla
 If running on Jetson or ARM device, install PyTorch compatible with your system from NVIDIA index if needed.
 
 __2. Clone or navigate to project_
-_cd Blood-Cell-AI
+cd Blood-Cell-AI
+
 _3. Ensure model exists_
 
 Make sure your trained model exists at:
@@ -75,6 +77,7 @@ runs/detect/train-5/weights/best.pt
 
 _4. Run Streamlit app_
 streamlit run app.py
+
 _5. Upload images_
 
 Upload microscope images in:
