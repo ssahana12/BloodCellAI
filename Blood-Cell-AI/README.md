@@ -1,4 +1,4 @@
-# Blood-Cell-AI
+# README.md
 
 Blood Cell AI Dashboard is a computer vision project that uses a YOLOv8 object detection model to identify and count blood cells from microscope images. It detects three classes: RBC (Red Blood Cells), WBC (White Blood Cells), and Platelets, and generates a simple medical-style report with counts, graphs, and a downloadable PDF.
 
