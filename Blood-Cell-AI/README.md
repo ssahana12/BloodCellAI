@@ -97,3 +97,6 @@ Generate report + graph + PDF download
 
 
 <img width="360" height="413" alt="image" src="https://github.com/user-attachments/assets/cb956c7e-70e5-4cd8-9a38-bbb925d7417b" />
+
+**Video Link**
+https://drive.google.com/file/d/10KGTzcoigd6h529gQi9pHzs0hyWcgO1c/view?usp=sharing
