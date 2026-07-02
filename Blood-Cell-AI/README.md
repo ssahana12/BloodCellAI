@@ -6,16 +6,16 @@ The project is built using a converted version of the BCCD (Blood Cell Count and
 
 The application is deployed as a Streamlit web dashboard, allowing users to upload microscope images (.jpg, .jpeg, .png) and receive real-time detection results.
 
-**Example Output
-**
+**Example Output**
+
 <img width="2421" height="1301" alt="image" src="https://github.com/user-attachments/assets/81d9ebde-5325-45bd-ac72-be4cd05c427f" />
 
-**The Algorithm
-**
+**The Algorithm**
+
 This project uses YOLOv8 (You Only Look Once version 8), a deep learning object detection algorithm that predicts bounding boxes and class probabilities in a single forward pass of a neural network.
 
-_How it works in this project:
-_Dataset Preparation
+How it works in this project:
+Dataset Preparation
 The original BCCD dataset contains microscope images with JSON annotations (Supervisely format).
 Each annotation includes bounding boxes for:
 RBC (Red Blood Cells)
@@ -30,8 +30,8 @@ train/
 val/
 test/
 
-**Model Training
-**A pretrained YOLOv8 model (yolov8n.pt) is fine-tuned on the dataset.
+**Model Training**
+A pretrained YOLOv8 model (yolov8n.pt) is fine-tuned on the dataset.
 Training uses:
 Image size: 512 or 640
 Epochs: ~50
@@ -44,16 +44,16 @@ YOLO detects bounding boxes
 Each detection is classified as RBC, WBC, or Platelets
 Results are counted and visualized
 
-**Post-processing
-**The app counts detected objects per class.
+**Post-processing**
+The app counts detected objects per class.
 Generates:
 Text report
 Bar chart visualization
 Annotated image output
 PDF report using ReportLab
 
-**Running this project
-**_1. Install dependencies_
+**Running this project**
+_1. Install dependencies_
 
 Make sure Python 3.8+ is installed.
 
